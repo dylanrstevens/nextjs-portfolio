@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import Image from "next/image";
-import profilePhotoImage from '../public/image2.png';
+import profilePhotoImage from '../public/image3.png';
 
 export default function Home() {
 	return (
@@ -29,7 +29,7 @@ export default function Home() {
 						href={siteConfig.links.docs}
 						className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
 					>
-						Documentation
+						Résume
 					</Link>
 					<Link
 						isExternal
@@ -44,6 +44,7 @@ export default function Home() {
 			</div>
 			<div className="">
 				<Image
+					className="rounded-full shadow-[inset_0_35px_60px_-15px_rgba(0,0,0,0.5)]"
 					src={profilePhotoImage}
 					width={250}
 					height={250}

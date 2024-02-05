@@ -8,62 +8,50 @@ export const siteConfig = {
 			label: "Home",
 			href: "/",
 		},
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    }
+		{
+		label: "About",
+		href: "/about",
+		},
+		{
+		label: "Contact",
+		href: "/contact",
+		},
+		{
+		label: "Portfolio",
+		href: "/portfolio",
+		},
+		{
+		label: "Résume",
+		href: "/resume",
+		}
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Home",
+			href: "/",
+			},
+		{
+		label: "About",
+		href: "/about",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+		label: "Contact",
+		href: "/contact",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+		label: "Portfolio",
+		href: "/portfolio",
 		},
 		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+		label: "Resume",
+		href: "/resume",
+		}
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+		github: "https://github.com/dylanrstevens",
+		twitter: "/",
+		docs: "/",
+		linkedin: "https://www.linkedin.com/in/dylan-stevens-b1460625b/",
+    sponsor: "mailto:dylan@dylanstevens.ca"
 	},
 };
