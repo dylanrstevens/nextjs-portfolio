@@ -20,20 +20,15 @@ import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
-	TwitterIcon,
 	GithubIcon,
-	DiscordIcon,
-	HeartFilledIcon,
+	LinkedInIcon,
 	EmailIcon,
-	SearchIcon,
 } from "@/components/icons";
-
-import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky" className="dark:bg-[#111111] light:bg-[#DDDDDD] shadow-md dark:shadow-[#111111] light:shadow-[#DDDDDD]">
+		<NextUINavbar maxWidth="xl" position="sticky" className="bg-background shadow-md dark:shadow-[#111111] light:shadow-[#DDDDDD]">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
@@ -64,14 +59,11 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
-						<DiscordIcon className="text-default-500" />
+					<Link isExternal href={siteConfig.links.discord} aria-label="LinkedIn">
+						<LinkedInIcon className="text-primary-700" />
 					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
-						<GithubIcon className="text-default-500" />
+						<GithubIcon className="text-secondary-700" />
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>
@@ -79,22 +71,14 @@ export const Navbar = () => {
 					<Button
             isExternal
 						as={Link}
-						className="text-sm font-normal text-default-600 bg-default-100"
+						className="text-sm font-normal text-foreground bg-default-300"
 						href={siteConfig.links.sponsor}
-						startContent={<EmailIcon className="text-primary" />}
+						startContent={<EmailIcon className="" />}
 						variant="flat"
 					>
 						Email Me
 					</Button>
 				</NavbarItem>
-			</NavbarContent>
-
-			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<Link isExternal href={siteConfig.links.github} aria-label="Github">
-					<GithubIcon className="text-default-500" />
-				</Link>
-				<ThemeSwitch />
-				<NavbarMenuToggle />
 			</NavbarContent>
 		</NextUINavbar>
 	);
