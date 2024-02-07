@@ -49,7 +49,7 @@ export const Navbar = () => {
 										: "foreground"
 								}
 								href={item.href}
-								
+								isBlock
 								size="md"
 							>
 								{item.label}
