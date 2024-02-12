@@ -25,11 +25,11 @@ export default function Home() {
 
 				<div className="flex gap-3">
 					<Link
-						isExternal
-						href={siteConfig.links.docs}
+						href="/DylanStevens_Resume.pdf"
 						className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+						download={"DylanStevens_Resume"}
 					>
-						Resumé
+						Download Resumé
 					</Link>
 					<Link
 						isExternal

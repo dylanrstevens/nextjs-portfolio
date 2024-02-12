@@ -13,10 +13,6 @@ export const siteConfig = {
 		href: "/about",
 		},
 		{
-		label: "Portfolio",
-		href: "/portfolio",
-		},
-		{
 		label: "Resumé",
 		href: "/resume",
 		}
@@ -31,18 +27,14 @@ export const siteConfig = {
 		href: "/about",
 		},
 		{
-		label: "Portfolio",
-		href: "/portfolio",
-		},
-		{
-		label: "Resume",
+		label: "Resumé",
 		href: "/resume",
 		}
 	],
 	links: {
 		github: "https://github.com/dylanrstevens",
 		twitter: "/",
-		docs: "/",
+		docs: "/DylanStevens_Resume.pdf",
 		linkedin: "https://www.linkedin.com/in/dylan-stevens-b1460625b/",
     sponsor: "mailto:dylan@dylanstevens.ca"
 	},
