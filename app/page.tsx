@@ -10,9 +10,9 @@ import profilePhotoImage from '../public/image3.png';
 
 export default function Home() {
 	return (
-		<main>
-		<section className="flex flex-row items-center justify-center gap-4 py-8 md:py-16 xl:py-32 flex-wrap">
-			<div className="flex flex-col items-center">
+		<main className=" h-full w-full justify-center flex items-center pb-24 pt-8">
+		<section className="flex flex-row items-center justify-center gap-4 flex-wrap ">
+			<div className="flex flex-col items-center ">
 				<div className="inline-block max-w-lg text-center justify-center">
 					<h1 className={title({ color: "blue" })}>Full-stack&nbsp;</h1>
 					<h1 className={title()}>

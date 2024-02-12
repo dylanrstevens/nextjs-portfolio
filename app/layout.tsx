@@ -46,7 +46,7 @@ export default function RootLayout({
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}> 
 					<div className="flex flex-col h-screen">
 						<Navbar />
-						<main className="fluid pt-16 px-6 max-w-screen flex-grow bg-background bg-gradient-to-bl from-primary-50">
+						<main className="max-w-screen flex-grow bg-background bg-gradient-to-bl from-primary-50">
 							{children}
 						</main>
 					</div>
