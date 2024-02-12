@@ -8,7 +8,7 @@ import { title, subtitle } from "@/components/primitives";
 export default function AboutPage() {
 	return (
 		<main>
-		<section className="flex flex-row items-center justify-center 2xl:pt-32 pt-20 pb-32 flex-wrap">
+		<section className="flex flex-row items-center justify-center 2xl:pt-32 pt-20 px-4 pb-32 flex-wrap">
 			<div className="flex flex-col items-center">
 				<div className="inline-block max-w-2xl text-center justify-center max-w">
 					<h1 className={title({size: "sm"})}>
