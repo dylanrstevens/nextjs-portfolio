@@ -1,4 +1,3 @@
-'use client'
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -12,8 +11,6 @@ import { Button } from "@nextui-org/button";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
-
-import { usePathname } from "next/navigation";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
@@ -44,9 +41,7 @@ export const Navbar = () => {
 						<NavbarItem key={item.href}>
 							<Link
 								color={
-									item.href === usePathname()
-										? "primary"
-										: "foreground"
+									"foreground"
 								}
 								href={item.href}
 								isBlock
@@ -101,9 +96,7 @@ export const Navbar = () => {
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
 								color={
-									item.href === usePathname()
-										? "primary"
-										: "foreground"
+									"foreground"
 								}
 								href={item.href}
 								size="lg"
