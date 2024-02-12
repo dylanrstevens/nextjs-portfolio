@@ -28,7 +28,7 @@ import {
 export const Navbar = () => { 
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky" isBlurred={true} className="shadow-md dark:shadow-[#000000] light:shadow-[#DDDDDD]">
+		<NextUINavbar maxWidth="full" position="sticky" isBlurred={true} className="shadow-md dark:shadow-[#000000] light:shadow-[#DDDDDD]">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">

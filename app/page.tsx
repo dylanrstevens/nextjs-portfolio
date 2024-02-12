@@ -11,7 +11,7 @@ import profilePhotoImage from '../public/image3.png';
 export default function Home() {
 	return (
 		<main>
-		<section className="flex flex-row items-center justify-center gap-4 py-8 md:py-16 flex-wrap">
+		<section className="flex flex-row items-center justify-center gap-4 py-8 md:py-16 xl:py-32 flex-wrap">
 			<div className="flex flex-col items-center">
 				<div className="inline-block max-w-lg text-center justify-center">
 					<h1 className={title({ color: "blue" })}>Full-stack&nbsp;</h1>
