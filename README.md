@@ -1,4 +1,4 @@
 # Personal Portfolio Website
-Please visit at <dylanstevens.ca>
+Please visit at <https://dylanstevens.ca>
 
 Hosted using Github pages
