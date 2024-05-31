@@ -24,7 +24,7 @@ export default function DocsPage() {
 					</h1>
 					<br/><br/>
 					<h1  className="text-lg font-semibold text-default-500"> 
-					My objective is to seek employment as an embedded software engineer to gain further hands-on experience to apply towards my bachelor’s degree and future career.
+					My objective is to seek employment as a software engineer to gain further hands-on experience to apply towards my bachelor’s degree and future career.
 					</h1>
 					<br/><br/>
 					<h1 className={title({size: "sm"})}>
@@ -32,7 +32,7 @@ export default function DocsPage() {
 					</h1>
 					<br/><br/>
 					<h1 className="text-xl font-semibold text-foreground">
-						PYTHON DEVELOPLER | L1 SCIENTIFIC LTD | SEPTEMBER 2023 – PRESENT
+						PYTHON DEVELOPLER | L1 SCIENTIFIC LTD | SEPTEMBER 2023 – MAY 2024
 					</h1>
 					<br/>
 					<h1  className="text-lg font-semibold text-default-500"> 
