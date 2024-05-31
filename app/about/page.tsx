@@ -16,11 +16,11 @@ export default function AboutPage() {
 						<br/><br/>
 					</h1>
 					<h1 className="text-justify text-lg font-semibold text-default-500">
-						I have been working in the technology field for 2 years. I am currently obtaining a degree (B.Sc, Computer Science) from the University of Victoria. I&apos;ve previously worked as a front end web application developer for an 8-month co-op contract, and currently working as a front end voice-app python developer for L1 Scientific LTD (see more in <Link underline="hover" href="/resume" size="lg" color={"primary"}>resumé</Link> section).
+						I have been working in the technology field for 2 years. I am currently obtaining a degree (B.Sc, Computer Science) from the University of Victoria. I&apos;ve previously worked as a front end web application developer for an 8-month co-op contract with the BC Pension Corporation, and as a front end voice-app python developer for L1 Scientific LTD (see more in <Link underline="hover" href="/resume" size="lg" color={"primary"}>resumé</Link> section).
 						<br/><br/>
-						Living in British Columbia, I&apos;m currently based in the cities of Victoria and Vancouver, and hope to contribute to the growing technology sector in the pacific northwest. 
+						Living in British Columbia, I&apos;m currently based in the pacific northwest area, and hope to contribute to the growing technology on the west coast of the US and Canada. 
 						<br/><br/>
-						I&apos;m particularly interested in software development that focuses on designing and programming software for embedded systems, and other specialized computing devices embedded within larger systems or products.
+						I&apos;m particularly interested in software development that focuses on designing and programming software for embedded systems, and other specialized computing devices within larger systems or products. I have work experience developing for specialized computing devices, cloud computing, and web development. 
 						<br/><br/>
 						Outside of the work force, I&apos;m passionate about skiing, biking, and many other outdoor recreations.
 						<br/><br/>
