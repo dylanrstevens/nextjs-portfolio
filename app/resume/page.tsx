@@ -78,11 +78,11 @@ export default function DocsPage() {
 					</h1>
 					<br/><br/>
 					<h1 className="text-xl font-semibold text-foreground">
-						COMPUTER SCIENCE CO-OP MAJOR | BACHELORS | UNIVERSITY OF VICTORIA | SEP 2020 - PRESENT
+						COMPUTER SCIENCE CO-OP MAJOR | BACHELORS | UNIVERSITY OF VICTORIA | SEP 2020 - DECEMBER 2024
 					</h1>
 					<br/><br/>
 					<h1  className="text-lg font-semibold text-default-500">
-					Related course work includes: Computer Architecture, Data Structures and Algorithms,, Software Development Methods, Computer Networks and Communications, Operating Systems, Database Systems, Cryptography 
+					Related course work includes: Computer Architecture, Data Structures and Algorithms, Software Development Methods, Computer Networks and Communications, Operating Systems, Database Systems, Data Compression, Artificial Intelligence, GPU Computing 
 					</h1>
 					<br/><br/>
 					<h1 className={title({size: "sm"})}>
