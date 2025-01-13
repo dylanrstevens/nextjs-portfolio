@@ -16,7 +16,7 @@ export default function AboutPage() {
 						<br/><br/>
 					</h1>
 					<h1 className="text-justify text-lg font-semibold text-default-500">
-						I have been working in the technology field for 2 years. I am currently obtaining a degree (B.Sc, Computer Science) from the University of Victoria. I&apos;ve previously worked as a front end web application developer for an 8-month co-op contract with the BC Pension Corporation, and as a front end voice-app python developer for L1 Scientific LTD (see more in <Link underline="hover" href="/resume" size="lg" color={"primary"}>resumé</Link> section).
+						I have been working in the technology field for 2 years. I currently have a bachelor of science (B.Sc.) in computer science from the University of Victoria, British Columbia. I&apos;ve previously worked as a front end web application developer for an 8-month co-op contract with the BC Pension Corporation, and as a front end voice-app python developer for L1 Scientific LTD (see more in <Link underline="hover" href="/resume" size="lg" color={"primary"}>resumé</Link> section).
 						<br/><br/>
 						Living in British Columbia, I&apos;m currently based in the pacific northwest area, and hope to contribute to the growing technology on the west coast of the US and Canada. 
 						<br/><br/>
