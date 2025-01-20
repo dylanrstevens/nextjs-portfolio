@@ -17,7 +17,7 @@ export default function Home() {
 					<h1 className={title()}>
 						Solutions Engineer at 
 					</h1>
-					<h1 className={title({ color: "cyan" })}>MiCROTEC&nbsp;</h1>
+					<h1 className={title({ color: "cyan" })}> MiCROTEC&nbsp;</h1>
 					<h1 className={title()}>
 						US. 
 					</h1>
