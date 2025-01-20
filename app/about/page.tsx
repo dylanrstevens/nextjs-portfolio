@@ -17,7 +17,7 @@ export default function AboutPage() {
 					</h1>
 					<h1 className="text-justify text-lg font-semibold text-default-500">
 						I currently have a bachelor of science (B.Sc.) in computer science from the University of Victoria, British Columbia. I am currently working as a Solutions Engineer for MiCROTEC US in Oregon.
-						<br></br>
+						<br/><br/>
 						I&apos;ve previously worked as a front end web application developer for the BC Pension Corporation, and as a voice-app python developer for L1 Scientific LTD (see more in <Link underline="hover" href="/resume" size="lg" color={"primary"}>resumé</Link> section).
 						<br/><br/>
 						My interests focus on designing and programming software solutions for embedded systems, and other specialized computing devices within larger systems or products, and the impact that eco-technology has on environmental industries. I have work experience developing for specialized computing devices, cloud computing, and web development. 
