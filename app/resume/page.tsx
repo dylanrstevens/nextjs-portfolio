@@ -20,14 +20,6 @@ export default function DocsPage() {
 					</h1>
 					<br/><br/>
 					<h1 className={title({size: "sm"})}>
-						Objective
-					</h1>
-					<br/><br/>
-					<h1  className="text-lg font-semibold text-default-500"> 
-					My objective is to seek employment as a software engineer to gain further hands-on experience to apply towards my bachelor’s degree and future career.
-					</h1>
-					<br/><br/>
-					<h1 className={title({size: "sm"})}>
 						Experience
 					</h1>
 					<br/><br/>
