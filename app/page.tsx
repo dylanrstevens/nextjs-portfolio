@@ -14,12 +14,15 @@ export default function Home() {
 		<section className="flex flex-row items-center justify-center gap-4 flex-wrap ">
 			<div className="flex flex-col items-center ">
 				<div className="inline-block max-w-lg text-center justify-center">
-					<h1 className={title({ color: "blue" })}>Full-stack&nbsp;</h1>
 					<h1 className={title()}>
-						software developer bringing creative solutions to life.
+						Solutions Engineer at
+					</h1>
+					<h1 className={title({ color: "cyan" })}>MiCROTEC&nbsp;</h1>
+					<h1 className={title()}>
+						US. 
 					</h1>
 					<h2 className={subtitle({ class: "mt-4 mb-4" })}>
-						Based in British Columbia, Canada
+						Based in Oregon, USA.
 					</h2>
 				</div>
 
