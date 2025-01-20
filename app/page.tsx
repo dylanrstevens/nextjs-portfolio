@@ -15,7 +15,7 @@ export default function Home() {
 			<div className="flex flex-col items-center ">
 				<div className="inline-block max-w-lg text-center justify-center">
 					<h1 className={title()}>
-						Solutions Engineer at
+						Solutions Engineer at 
 					</h1>
 					<h1 className={title({ color: "cyan" })}>MiCROTEC&nbsp;</h1>
 					<h1 className={title()}>
@@ -28,11 +28,10 @@ export default function Home() {
 
 				<div className="flex gap-3">
 					<Link
-						href="/DylanStevens_Resume.pdf"
+						href="https://www.linkedin.com/in/dylan-stevens-b1460625b/"
 						className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
-						download={"DylanStevens_Resume"}
 					>
-						Download Resumé
+						LinkedIn
 					</Link>
 					<Link
 						isExternal
